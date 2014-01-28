@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navMenu {
+	background: rgb(140,140,140); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(140,140,140,1) 0%, rgba(217,217,217,1) 76%, rgba(232,232,232,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(140,140,140,1)), color-stop(76%,rgba(217,217,217,1)), color-stop(100%,rgba(232,232,232,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(140,140,140,1) 0%,rgba(217,217,217,1) 76%,rgba(232,232,232,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(140,140,140,1) 0%,rgba(217,217,217,1) 76%,rgba(232,232,232,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(140,140,140,1) 0%,rgba(217,217,217,1) 76%,rgba(232,232,232,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(140,140,140,1) 0%,rgba(217,217,217,1) 76%,rgba(232,232,232,1) 100%); /* W3C */
+	text-align: center;
+}
+
+.navMenu a{
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+.navMenu a:hover{
+	background: #5bb5ff;
+	color: #000;
+}
+
+body#me a#me-, #report a#report-, #source a#source-, #tester a#tester-, #style a#style- {
+	background: #858585;
+	border: solid #656565;
+	color: #F00;
+} 
+
+#left ul{
+	display: block;
+	list-style: none;
+	width: 260px;
+}
+
+#left li{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#left li:hover{
+	background: #666;
+}
+
+#left li:hover a{
+	color:#F00;	
+}

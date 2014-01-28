@@ -1,0 +1,201 @@
+@import url(form.css);
+@import url(codeStyle.css);
+@import url(tableStyle.css);
+
+html {
+	background: rgb(30,87,153); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(30,87,153,1) 0%, rgba(214,214,214,1) 40%, rgba(214,214,214,1) 60%, rgba(32,124,202,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(30,87,153,1)), color-stop(40%,rgba(214,214,214,1)), color-stop(60%,rgba(214,214,214,1)), color-stop(100%,rgba(32,124,202,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(30,87,153,1) 0%,rgba(214,214,214,1) 40%,rgba(214,214,214,1) 60%,rgba(32,124,202,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(30,87,153,1) 0%,rgba(214,214,214,1) 40%,rgba(214,214,214,1) 60%,rgba(32,124,202,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(30,87,153,1) 0%,rgba(214,214,214,1) 40%,rgba(214,214,214,1) 60%,rgba(32,124,202,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(30,87,153,1) 0%,rgba(214,214,214,1) 40%,rgba(214,214,214,1) 60%,rgba(32,124,202,1) 100%); /* W3C */
+	overflow-y: scroll; 
+}
+
+body {
+	margin: auto;
+	width: 1024px;
+	background: rgb(242,249,254); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(242,249,254,1) 0%, rgba(214,240,253,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,249,254,1)), color-stop(	100%,rgba(214,240,253,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%); /* W3C */
+	border: 1px #000000;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: #333333;
+}
+
+body#me a#me-, #report a#report-, #source a#source-, #tester a#tester- {
+	background: #858585;
+	border: solid #656565;
+} 
+
+h1 {
+	text-transform: uppercase;
+	border-bottom: 4px double #333333;
+}
+
+figure {
+	float: right;
+}
+
+figcaption {
+	font-style: italic;
+	font-size: smaller;
+	text-align: center;
+}
+
+.me-img {
+	-ms-box-shadow: 10px 10px 5px #888;
+	-o-box-shadow: 10px 10px 5px #888;
+ 	-moz-box-shadow: 10px 10px 5px #888;
+ 	-webkit-box-shadow: 10px 10px 5px #888;
+ 	box-shadow: 10px 10px 5px #888;
+	margin: 0 10px 10px 10px;
+	float: right;
+}
+
+a {
+	text-decoration: none;
+	color: #999999;
+}
+
+p {
+	display: block;
+	margin-left: 5px;
+}
+
+#footer {
+	display: block;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+	color: #333333
+}
+
+.navMenu {
+	display: block;
+	padding: .2em 1em 0 .1em;
+	background: rgb(184,225,252); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(184,225,252,1) 0%, rgba(169,210,243,1) 10%, rgba(144,186,228,1) 25%, rgba(144,188,234,1) 37%, rgba(144,191,240,1) 50%, rgba(107,168,229,1) 51%, rgba(162,218,245,1) 83%, rgba(189,243,253,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(184,225,252,1)), color-stop(10%,rgba(169,210,243,1)), color-stop(25%,rgba(144,186,228,1)), color-stop(37%,rgba(144,188,234,1)), color-stop(50%,rgba(144,191,240,1)), color-stop(51%,rgba(107,168,229,1)), color-stop(83%,rgba(162,218,245,1)), color-stop(100%,rgba(189,243,253,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(107,168,229,1) 51%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(107,168,229,1) 51%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(107,168,229,1) 51%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(107,168,229,1) 51%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%); /* W3C */
+	border-bottom: 2px solid #999999;	
+}
+.navMenu a{
+	padding: 0.3em 1em 0 1em;
+    color: #555555;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-decoration:none;
+}
+.navMenu a:hover{
+	color: #111111; background: #999999;
+}
+
+footer.byline {
+	clear: both;
+	border-top: 1px dashed #999999;
+	padding: 10px;
+	font-size: smaller;
+	font-style: italic;
+}
+
+.byline-img {
+	float: right;
+
+}
+
+#wrap {
+	padding:1em 0 1em 0;
+	overflow: auto;
+	display: block;
+}
+
+#leftCol {
+	float: left;
+}
+
+#left {
+	border: 1px #000000;
+}
+
+#left ul {
+	display: block;
+	margin: 0;  
+	padding: 0;
+    list-style: none; 
+    width: 312px;
+}
+
+#left li {
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
+
+#left li:hover {
+	border: 1px solid #cccccc;
+}
+
+
+#rightCol {
+	overflow-x: auto; 
+	float: right;
+	width: 710px;
+}
+
+nav.login {float:right;}
+
+/* Misc classes
+-------------------------------------------------------- 
+
+*/
+.right {float:right;}
+.left {float:left;}
+.justify, 
+.justify-para p {text-align:justify;}
+
+.quiet { color: #666; }
+.loud { color: #000; }
+
+.small { font-size: .8em; margin-bottom: 1.875em; line-height: 1.875em; }
+.large { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }
+.hide { display: none; }
+
+/* Use a .box to create a padded box inside a column. */
+.box {
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  background: #F2F2F2;
+}
+
+/* Border on right hand side of a column. */
+.border {
+  padding-right: 1em;
+  margin-right: 5px;
+  border-right: 1px solid #ddd;
+}
+
+/* Use this to create a horizontal ruler across a column. */
+hr {
+  background: #ddd;
+  color: #ddd;
+  clear: both;
+  float: none;
+  width: 100%;
+  height: 1px;
+  margin: 0 0 1.45em;
+  border: none;
+}
+
+/* Display code in a block */
+blockquote.code {font-family:monospace;white-space:pre;background:#F2F2F2;
+margin-left:0;margin-right:0;padding-left:0.5em;
+border:1px solid #999;overflow:auto;
+}

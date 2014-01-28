@@ -1,0 +1,16 @@
+table, th, td {
+	border: 1px solid white;
+}
+
+td {
+	padding: 15px;
+}
+
+img.left {
+	margin: 0 10px 0 10px;
+	width: 25%;
+}
+
+th {
+	background-color: rgba(107,168,229,1); 
+}

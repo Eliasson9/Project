@@ -1,0 +1,108 @@
+html {
+	background: #FFFFFF;
+	position: relative;
+	overflow-y: scroll;
+}
+
+body {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f0ece6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f0ece6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f0ece6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#f0ece6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f0ece6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#f0ece6 100%); /* W3C */
+	margin: 0pt auto;
+	width: 1000px;
+	border-left: 1px solid #BBBBBB;
+	border-right: 1px solid #BBBBBB;
+	text-align: center;
+	-webkit-border-bottom-right-radius: 10px; /* Chrome,Safari4+ */
+	-webkit-border-bottom-left-radius: 10px; /* Chrome,Safari4+ */
+	-moz-border-radius-bottomright: 10px; /* FF3.6+ */
+	-moz-border-radius-bottomleft: 10px; /* FF3.6+ */
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+div {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #999999;
+}
+
+p {
+	text-align: justify;
+	display: block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.navMenu {
+	margin-bottom: 0px;
+	margin-top: 10px;
+	padding: 0px;
+	text-align: center;
+}
+
+.navMenu a {
+	font-size: 1em;
+	overflow: hidden;
+	display: inline;
+	padding: 0px 18px 0px 18px;
+	float: inherit;
+	font-weight: normal;
+	border-right: 1px solid #BBBBBB; 
+}
+
+#top {
+	border-bottom: 1px solid #BBBBBB;
+	height: 103px;
+}
+
+#left {
+	float: left;
+	width: 300px;
+	clear: none;
+}
+
+#right {
+	float: left;
+	width: 680px;
+	border-left: 1px solid #BBBBBB;
+	min-height: 500px;
+}
+
+#right p {
+	margin-left: 65px;
+}
+
+#home {
+	min-height: 500px;
+}
+
+hr {
+	clear: both
+}
+
+#bottom {
+	padding-top: 10px;
+}
+
+#aside {
+	padding-left: 50px;
+	text-align: left;
+}
+
+figure {
+	border-bottom: solid 1px #BBBBBB;
+}
+
+figcaption {
+	font-style: italic;
+	font-size: smaller;
+	text-align: center;
+}

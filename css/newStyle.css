@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(form.css);
+@import url(codeStyle.css);
+@import url(navStyle.css);
+
+html{
+
+}
+
+#above, #top{
+	background: #2d2d2d;	
+}
+
+body{
+	width: 950px;
+	background: #f2f2f2;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	border: thin solid #000000;
+}
+
+h1{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style: normal;
+	font-variant: small-caps;
+	text-decoration: underline;
+	margin-left: 10px;
+}
+
+a{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-shadow: 0px 0px;
+	text-decoration: none;
+	color: #666666;
+}
+
+p{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	display: block;
+	margin-left: 10px;
+}
+
+
+figure{
+	float: right;
+}
+
+.me-img{
+	margin-right: 20px;
+	margin-left: 5px;
+}
+
+figcaption{
+	text-align: center;
+}
+
+#wrap{
+	display: block;
+	overflow: auto;	
+}
+
+#leftCol{
+	float: left;	
+}
+
+#rightCol{
+	float: right;	
+	overflow-x: auto;
+	width: 620px;
+}
+
+footer.byline {
+	clear: both;
+	border-top: 1px dashed #999999;
+	padding: 10px;
+	font-size: smaller;
+	font-style: italic;
+}
+
+.byline-img {
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+nav.login{
+	float: right;	
+}
+
+#related{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-shadow: 0px 0px;
+	text-decoration: none;
+	color: red;	
+}
+
+
