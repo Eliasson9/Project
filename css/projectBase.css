@@ -84,6 +84,12 @@ p {
 	min-height: 500px;
 }
 
+#home h3 {
+	text-align: left;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
 hr {
 	clear: both
 }

@@ -5,7 +5,9 @@
 	include("included/headerProject.php");
 	 ?>
 	<div id="home">
-		<img src="images/bmo/home.jpg" alt="Hem bild" />
+		<h2>Välkommen till Begravningsmueum Online</h2>
+		<h3>Här kan ni får tllgång till information och bilder om vilka seder och bruk som användes vid begravningar för ett eller två sekel sedan.</h3>
+		<img src="images/bmo/Home2.jpg" alt="Hem bild" />
 	</div>
 	
 
