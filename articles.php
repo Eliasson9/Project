@@ -10,12 +10,20 @@
   	$stmt->execute();
   	$res = $stmt->fetchAll(PDO::FETCH_ASSOC);
 	$categories = "<nav id='aside'>";
-	$categories .= "<a href=articles.php>Visa alla</a></br>";
+	$categories .= "<a href=articles.php>Visa alla</a><br />";
 	
 	foreach ($res as $cat) {
-		$categories .= "<a href=articles.php?p={$cat['title']}>{$cat['title']}</a></br>";
+		if($cat['title']=="Begravningsseder och bruk") {
+			$categories .= "<a href='articles.php?p=Begravningsseder'>{$cat['title']}</a><br />";	
+		}
+		else if($cat['title']=="Begravningsfest och Gravöl - ett stort kalas") {
+			$categories .= "<a href='articles.php?p=Begravningsfest'>{$cat['title']}</a><br />";
+		}
+		else {
+			$categories .= "<a href='articles.php?p={$cat['title']}'>{$cat['title']}</a><br />";	
+		}
 	}
-	$categories .= "</aside>";
+	$categories .= "</nav>";
 	if(isset($_GET['p'])){
 		if ($_GET['p'] == 'Begravningsseder') {
 			$category [] = 'Begravningsseder och bruk';

@@ -11,11 +11,11 @@
   	$stmt->execute();
   	$res = $stmt->fetchAll(PDO::FETCH_ASSOC);
 	$categories = "<nav id='aside'>";
-	$categories .= "<a href=collectionObject.php>Visa alla</a></br>";
+	$categories .= "<a href=collectionObject.php>Visa alla</a><br />";
 	foreach ($res as $cat) {
-		$categories .= "<a href=collectionObject.php?p={$cat['category']}>{$cat['category']}</a></br>";
+		$categories .= "<a href='collectionObject.php?p={$cat['category']}'>{$cat['category']}</a><br />";
 	}
-	$categories .= "</aside>";
+	$categories .= "</nav>";
 	if(isset($_GET['p'])){
 		$html = "<h3>{$_GET['p']}</h3>";	
 		$category [] = $_GET['p'];	
