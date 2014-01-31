@@ -10,9 +10,6 @@
 			<a href="http://validator.w3.org/i18n-checker/check?uri=http://dbwebb.se/htmlphp/me/kmom03/test.php?p=kmom03-server">i18n</a>
 			<a href="source.php">Källkod</a>
 		</p>
-		<?php if(isset($pageTimeGeneration)) : ?>
-		<p>Page generated in <?php echo round(microtime(true)-$pageTimeGeneration, 5); ?> seconds</p>
-		<?php endif; ?>
 	</footer>	
 </body>
 </html>

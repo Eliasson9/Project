@@ -7,10 +7,8 @@
 	if(isset($_POST['doDelete'])) {
   		if(isset($_POST['advertisementChoise']))
   		{
-          var_dump($_POST['advertisementChoise']);
           $choise [] = $_POST['advertisementChoise'];
         	$stmt = $db->prepare("DELETE FROM Advertisement WHERE id=?");
-          var_dump($stmt);
           $stmt->execute($choise);
         	$output = "Filen raderades.";
   		}
