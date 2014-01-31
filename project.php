@@ -7,7 +7,7 @@
 	<div id="home">
 		<h2>Välkommen till Begravningsmseum Online</h2>
 		<h3>Här kan ni får tllgång till information och bilder om vilka seder och bruk som användes vid begravningar för ett eller två sekel sedan.</h3>
-		<img src="images/bmo/Home2.jpg" alt="Hem bild" />
+		<img src="images/bmo/Main1.png" alt="Hem bild" />
 	</div>
 	
 
