@@ -43,6 +43,17 @@
 		<p>Med tanke på att jag kör på endast ubuntu numera så gjorde jag allt mycket rörigare än jag borde så det tog en stund innan jag hade kontroll på hur SQLite fungerar. Har suttit en hel del med MySql och MSSql innan då jag gått databbasteknik-kursen så syntaxen var inga probelm. Detta gjorde att kursmomentet gick väldigt fort och stötte inte på några problem direkt. Var dock lite ovan när det gällde PDO till en början men gick bra ändå.</p>
 		<p>Anänder mig mest utav Google Chrome så brydde mig inte om att installera plugin till firefox utan använde mig utav terminalen istället. Är ganska van vid syntaxen så det var inga problem men bara lite nytt med hur man fick igång det med SQLite.</p>
 		<p>Har faktiskt inget mer att skriva om detta moment mer än att jag ser fram emot projektet och experimentera mer på egen hand</p>
+		
+		
+		<h2>Kmom07/10: Project</h2>
+		
+		<p>Tycker inte att projektet egentligen var så värst svårt men blev en hel del pill ändå. Det som var jobbigast och mest tidskrävande var givetvis designen och hur jag skulle lägga upp allt. Funktionaliteten i sig spenderade jag kanske 4-8h på medans designen tog 20-24h. En annan sak jag blev lite förvånad över var att det fanns redan html-kod i databasen och även php-kod. Detta ställde till med några problem som tog ett tag att fixa med tanke på att jag inte använder firefox utan chrome. </p> 
+		<p>Hittade ett väldigt bra verktyg till Linux som heter Sqliteman och var väldigt användbart för mig. Jag fick även ändra i de färdiga 'img-pathen' så att de fungerade med min struktur med katalogerna samt storlekarna på bilderna (blev inte så snyggt med de stora 4x-bilderna). En annan anledning till att jag ändrade vilka bilder jag använde och inte bara tryckte ihop dem i css-filen var att sidan går mycket snabbare att ladda. Dessa redigeringarna i databasen tog mig kanske ca 2-4h att fixa. </p>
+		<p>Stötte även på en hel del hinder under projektets gång med tanke på min dåliga planering och brist på backup... Fick installera om mitt Ubuntu under projektets gång bara för jag fick för mig att pilla på mina grafiska drivrutiner så jag kunde använda migg grafikkort som det är meningen. Men kan väl bara säga gör om, gör rätt. Installerade nu istället Elementary OS Luna och fixade min utvecklingsmiljö igen och denna gång med git och en backup. </p> 
+		<p>Har även varit med arbetsbelastning än väntat i mina andra kurser (Machine Learning, Descision Support Systems) och kombinationen utav allt detta är anlednignen till att jag inte gjort någon utav de valbara uppgifterna.</p>
+		<br />
+		<p>Kursen tycker jag har varit ganska lärorik och har lärt mig en hel del. Tycker dock att det gavs ut lite för mycket kod egentligen och skulle velat ha en lite mer genomgång om hur de färdiga php-filerna som common.php och login.php. Hoppas att jag får lära mig mer om phps funktionalitet och användbarhet i nästa kurs (oophp) så man kan använda det på ett bätttre sätt. Tycker att genomgångarna i delmomenten har varit väldigt bra och väldigt lätta att följa och förstå.</p> 
+		<p>Det som har varit svårast i kursen är designen men inte css-koden i sig utan att komma på en snygg och användarvänlig design till hemsidan. Kommer inte på mycket mer att skriva utan kan bara säga att jag ser fram emot nästa kurs och får hoppas att jag lyckas planera bättre denna gång. </p>
 	</article>
 </div>
 <?php 
