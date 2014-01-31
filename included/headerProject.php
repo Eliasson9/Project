@@ -23,7 +23,7 @@
 		</nav>
 	</header>
 	<header id="top">
-		<h2>Begravningsmuseum Online</h2>
+		<h1>Begravningsmuseum Online</h1>
 		<nav class = "navMenu">
 			<a id="project-" href="project.php">Hem</a>
 			<a id="collectionObject-" href="collectionObject.php">Samling av Objekt</a>

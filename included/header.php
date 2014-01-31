@@ -5,7 +5,7 @@
 	<?php if(isset($_SESSION['stylesheet'])): ?>
   		<link rel="stylesheet" href="css/<?php echo $_SESSION['stylesheet']; ?>">
 	<?php else: ?>
-  		<link rel="stylesheet" href="css/projectBase.css" title="General stylesheet">
+  		<link rel="stylesheet" href="css/stylesheet.css" title="General stylesheet">
   		<link rel="alternate stylesheet" href="css/debug.css" title="Debug stylesheet">
 	<?php endif; ?>
 	<link rel="shortcut icon" href="images/favicon_glider.ico">
