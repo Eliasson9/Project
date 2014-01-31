@@ -26,7 +26,7 @@
             <a href="http://www.student.bth.se/~pael10/htmlphp/Kmom04/me.php">Kmom04</a>  
 			<a href="http://www.student.bth.se/~pael10/htmlphp/Kmom05/me.php">Kmom05</a>
 			<a href="http://www.student.bth.se/~pael10/htmlphp/Kmom06/me.php">Kmom06</a>  
-			Kmom06
+			Kmom07/10
 		</nav>
 	</header>
 	<header id="top">

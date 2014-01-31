@@ -19,7 +19,7 @@
 	<header id="above">
 		<nav id="related">
 			Previous site: 
-			<a href="http://www.student.bth.se/~pael10/htmlphp/Kmom06/me.php">Kmom06</a>  
+			<a href="http://www.student.bth.se/~pael10/htmlphp/Project/me.php">Kmom07/10</a>  
 		</nav>
 	</header>
 	<header id="top">
